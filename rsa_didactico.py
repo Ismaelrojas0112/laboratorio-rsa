@@ -2,7 +2,7 @@
 rsa_didactico.py -- Implementacion didactica de RSA ("textbook RSA") desde cero.
 
 Curso: Criptoanalisis -- Cifrado y Descifrado en RSA
-Autor: Nolberto Ismael Rojas Carlos (UNI)
+Autor: Ismael Rojas (UNI)
 
 (Se llama rsa_didactico y no rsa para no chocar con la biblioteca `rsa` de PyPI.)
 
