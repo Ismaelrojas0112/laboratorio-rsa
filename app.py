@@ -205,8 +205,8 @@ class PantallaMenu(tk.Frame):
         tarjetas = tk.Frame(centro, bg=BG)
         tarjetas.pack()
         self._tarjeta(tarjetas, "⇄", "Chat cifrado con espía",
-                      "Alice y Bob conversan con RSA mientras\nEve intercepta el canal. Cambia el tamaño\n"
-                      "de la clave y comprueba si Eve puede\nleerlos.", AZUL, app.ir_chat).pack(side="left", padx=10)
+                      "Alice y Bob conversan con RSA mientras\nEve intercepta el canal. Prueba distintos\n"
+                      "tamaños de clave y mira si Eve los lee.", AZUL, app.ir_chat).pack(side="left", padx=10)
         self._tarjeta(tarjetas, "φ", "RSA paso a paso",
                       "Elige p, q, e y un mensaje y mira cada\ncálculo: n, φ(n), Euclides, cuadrados\n"
                       "sucesivos, cifrado y descifrado.", MENTA, app.ir_pasos).pack(side="left", padx=10)

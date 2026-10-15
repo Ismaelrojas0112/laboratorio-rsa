@@ -21,6 +21,25 @@ El programa tiene tres opciones en el menú:
 | **RSA paso a paso** | Elige `p`, `q`, `e` y un mensaje y mira los 10 cálculos: `n`, `φ(n)`, Euclides extendido, cuadrados sucesivos, cifrado, descifrado, Teorema Chino del Resto y verificación. Se puede copiar o guardar en `.txt`. |
 | **Ataques al RSA de libro** | Exponente pequeño (`e = 3`), módulo común y medición del tiempo de factorización con extrapolación a claves mayores. Con el relleno aleatorio activado, los ataques fallan. |
 
+## Capturas
+
+**Menú principal**
+
+![Menú principal](capturas/menu.png)
+
+**Chat con espía:** con una clave de 64 bits, Eve la rompe en milisegundos y lee la conversación. Al repetirse
+un mensaje sin relleno, además avisa de que el cifrado es idéntico.
+
+![Chat cifrado con espía](capturas/chat.png)
+
+**RSA paso a paso:** el ejemplo `p = 61`, `q = 53`, `e = 17` con la tabla de Euclides extendido que da `d = 2753`.
+
+![RSA paso a paso](capturas/paso_a_paso.png)
+
+**Ataque del exponente pequeño:** con `e = 3` y un mensaje corto, Eve lo lee sin factorizar `n`.
+
+![Ataque del exponente pequeño](capturas/ataques.png)
+
 ## Cómo ejecutarlo
 
 ```
