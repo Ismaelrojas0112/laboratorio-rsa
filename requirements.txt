@@ -1,0 +1,2 @@
+# Sin dependencias externas: solo la biblioteca estandar de Python (3.8 o superior).
+# Tkinter viene incluido en Windows y macOS; en Linux: sudo apt install python3-tk
